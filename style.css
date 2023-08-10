@@ -16,7 +16,6 @@ body {
   .header-1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     flex: 1;
   }
   
@@ -33,14 +32,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 10px 50px;
-    flex: 1;
   }
   
   .list {
     list-style: none;
     gap: 25px;
   }
-  
+
   a {
     font-size: 18px;
     color: #e5e7eb;
@@ -151,16 +149,6 @@ body {
     text-align: center;
   }
   
-  .quote {
-    display: flex;
-    flex-direction: column;
-    font-weight: lighter;
-    align-items: flex-end;
-    margin: 50px 300px;  
-  }
-  
-  
-  
   .call-to-action button {
     border: white solid 1px;
     background: #3882f6;
@@ -168,17 +156,24 @@ body {
     width: 150px;
     color: white;
   }
+
+  .quote {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    width: 800px;
+  }
   
   .quote-section {
     background: #e5e7eb;
     display: flex;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: center;
   }
   
   .quote p {
     display: flex;
-    
   }
   
   .call-to-action {
@@ -186,9 +181,10 @@ body {
     justify-content: space-around;
     background: #3882f6;
     align-items: center;
-    margin: 150px;
+    margin: 50px;
     border-radius: 10px;
     color: white;
+    gap: 20px;
   }
 
   .footer {
@@ -197,4 +193,5 @@ body {
     background: #1f2937;
     height: 50px;
     align-items: center;
+    flex-wrap: wrap;
   }
