@@ -31,6 +31,7 @@ body {
 
 .content .list {
     display: flex;
+    flex-wrap: wrap;
     margin: 10px 50px;
     flex: 1;
   }
@@ -106,5 +107,52 @@ body {
   
   .placeholder {
     text-align: center;
+  }
+  
+  .body-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .headings {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+  }
+  
+  .headings .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .headings .unordered ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .headings .unordered ul li {
+    margin: 5px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headings .unordered div {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .paragraph-1 ul li {
+    list-style: none;
+    width: 200px;
   }
   
