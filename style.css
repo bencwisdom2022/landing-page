@@ -159,6 +159,16 @@ body {
     margin: 50px 300px;  
   }
   
+  
+  
+  .call-to-action button {
+    border: white solid 1px;
+    background: #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+  }
+  
   .quote-section {
     background: #e5e7eb;
     display: flex;
@@ -180,13 +190,11 @@ body {
     border-radius: 10px;
     color: white;
   }
-  
-  .call-to-action button {
-    border: white solid 1px;
-    background: #3882f6;
-    border-radius: 5px;
-    width: 150px;
-    color: white;
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    height: 50px;
+    align-items: center;
   }
-  
-  
