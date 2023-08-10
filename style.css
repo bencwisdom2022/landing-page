@@ -151,8 +151,42 @@ body {
     text-align: center;
   }
   
-  .paragraph-1 ul li {
-    list-style: none;
-    width: 200px;
+  .quote {
+    display: flex;
+    flex-direction: column;
+    font-weight: lighter;
+    align-items: flex-end;
+    margin: 50px 300px;  
   }
+  
+  .quote-section {
+    background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  
+  .quote p {
+    display: flex;
+    
+  }
+  
+  .call-to-action {
+    display: flex;
+    justify-content: space-around;
+    background: #3882f6;
+    align-items: center;
+    margin: 150px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .call-to-action button {
+    border: white solid 1px;
+    background: #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    color: white;
+  }
+  
   
